@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="stickers.waipl.stickerchatapp.Fragment.NewsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/NewNative"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <TextView
+            android:id="@+id/tvhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/mensrea_dirty"
+            android:gravity="center"
+            android:text="CRICKET NEWS"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border_imageview"
+            android:src="@drawable/cricvoice" />
+
+
+        <TextView
+            android:id="@+id/tvcomingsoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/mensrea_dirty"
+            android:gravity="center"
+            android:text="Coming Soon."
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

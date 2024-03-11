@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/splashimage"
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/mensrea_dirty"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:text="Stick Cric"
+        android:textColor="@color/bluedark" />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="288dp"
+        android:layout_height="269dp"
+        android:src="@drawable/cricvoice" />
+
+    <ProgressBar
+        android:id="@+id/entry_activity_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</LinearLayout>

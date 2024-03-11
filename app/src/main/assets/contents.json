@@ -1,0 +1,326 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "csk",
+      "name": "Chennai Super Kings",
+      "publisher": "csk",
+      "tray_image_file": "csk_7.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "csk_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "csk_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "csk_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "csk_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "csk_5.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "csk_6.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "csk_7.webp",
+          "emojis": ["😭","💧"]
+        }
+
+      ]
+    },
+    {
+      "identifier": "dc",
+      "name": "Delhi Capitals",
+      "publisher": "dc",
+      "tray_image_file": "dc_1.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "dc_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "dc_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "dc_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "dc_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "dc_5.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "dc_6.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "dc_7.webp",
+          "emojis": ["😭","💧"]
+        }
+
+      ]
+    },
+    {
+      "identifier": "kkr",
+      "name": "Kolkata Knight Riders",
+      "publisher": "kkr",
+      "tray_image_file": "kkr_1.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "kkr_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "kkr_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "kkr_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "kkr_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "kkr_5.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "kkr_6.webp",
+          "emojis": ["😩","😰"]
+        }
+
+      ]
+    },
+    {
+      "identifier": "pk",
+      "name": "Punjab Kings",
+      "publisher": "pk",
+      "tray_image_file": "pk_1.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "pk_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "pk_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "pk_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "pk_4.webp",
+          "emojis": ["😄","😀"]
+        }
+
+
+      ]
+    },
+    {
+      "identifier": "mi",
+      "name": "Mumbai Indians",
+      "publisher": "mi",
+      "tray_image_file": "mi_5.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "mi_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "mi_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "mi_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "mi_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "mi_5.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "mi_6.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "mi_7.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "mi_8.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "mi_9.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "mi_10.webp",
+          "emojis": ["😭","💧"]
+        }
+
+      ]
+    },
+    {
+      "identifier": "rcb",
+      "name": "Royal Challengers Bangalore",
+      "publisher": "rcb",
+      "tray_image_file": "rcb_5.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "rcb_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "rcb_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "rcb_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "rcb_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "rcb_5.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "rcb_6.webp",
+          "emojis": ["😄","😀"]
+        }
+
+
+      ]
+    },
+    {
+      "identifier": "rr",
+      "name": "Rajasthan Royals",
+      "publisher": "rr",
+      "tray_image_file": "rr_1.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "rr_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "rr_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "rr_3.webp",
+          "emojis": ["☕","🙂"]
+        }
+
+
+      ]
+    },
+    {
+      "identifier": "srh",
+      "name": "Sun Risers Hyderabad",
+      "publisher": "srh",
+      "tray_image_file": "srh_6.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "srh_1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "srh_2.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "srh_3.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "srh_4.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "srh_5.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "srh_6.webp",
+          "emojis": ["😄","😀"]
+        }
+
+
+      ]
+    }
+  ]
+}

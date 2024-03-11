@@ -1,8 +1,10 @@
-# Compiled Form Modules
-*.fmx
-
-# Compiled Menu Modules
-*.mmx
-
-# Compiled Pre-Linked Libraries
-*.plx
+.gradle
+.DS_Store
+.idea
+build/
+local.properties
+localhost/
+obj/
+*.iml
+Gemfile.lock
+_site/

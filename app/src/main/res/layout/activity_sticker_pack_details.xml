@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3A3A"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.ads.nativetemplates.TemplateView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/StickerDetailadView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:foreground="@drawable/list_border"
+        app:cardBackgroundColor="#5E5E5E"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="329dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="@dimen/preview_side_margin"
+            android:layout_marginLeft="@dimen/preview_side_margin"
+            android:layout_marginEnd="@dimen/preview_side_margin"
+            android:layout_marginRight="@dimen/preview_side_margin"
+            android:layout_marginBottom="24dp">
+
+
+            <ImageView
+                android:id="@+id/tray_image"
+                android:layout_width="77dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/tray_image_content_description"
+                android:src="@color/colorAccent"
+                app:layout_constraintBottom_toTopOf="@+id/pack_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:src="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/pack_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.429"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Pack Name" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="83dp"
+                android:layout_height="20dp"
+                android:textColor="#FFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.426"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.458"
+                tools:text="Author" />
+
+            <TextView
+                android:id="@+id/pack_size"
+                android:layout_width="66dp"
+                android:layout_height="20dp"
+                android:textColor="#FFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.403"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.666"
+                tools:text="Size" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <stickers.waipl.stickerchatapp.BottomFadingRecyclerView
+            android:id="@+id/sticker_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fadingEdgeLength="@dimen/fading_edge_length"
+            android:paddingStart="@dimen/preview_side_margin"
+            android:paddingLeft="@dimen/preview_side_margin"
+            android:paddingEnd="@dimen/preview_side_margin"
+            android:paddingRight="@dimen/preview_side_margin"
+            android:requiresFadingEdge="vertical" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.1"
+            android:background="#000000"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/preview_side_margin"
+        android:layout_marginLeft="@dimen/preview_side_margin"
+        android:layout_marginEnd="@dimen/preview_side_margin"
+        android:layout_marginRight="@dimen/preview_side_margin">
+
+        <TextView
+            android:id="@+id/already_added_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/details_pack_already_added"
+            android:textColor="#9B9B9B"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/add_to_whatsapp_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="16dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <TextView
+                style="@style/StickerPreviewButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:drawableStart="@drawable/sticker_3rdparty_wa"
+                android:drawableLeft="@drawable/sticker_3rdparty_wa"
+                android:drawablePadding="8dp"
+                android:focusable="false"
+                android:foreground="@android:color/transparent"
+                android:text="@string/add_to_whatsapp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
